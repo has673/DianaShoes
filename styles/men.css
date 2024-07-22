@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.brand {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+.brand h1 a{
+   text-decoration: none;
+   color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    color: white;
+    height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li:last-child {
+    margin-right: 0;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: gold;
+}
+
+/* Shoe card styling */
+.shoe-card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+}
+
+.shoe-image {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.shoe-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.shoe-description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+img{
+    width: 200px;
+    height: 112px;
+}
+.shoe-price {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Button styling */
+.buy-button {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #001f3f; /* Darken color on hover */
+}

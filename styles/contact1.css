@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.brand {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    color: white;
+    height: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li:last-child {
+    margin-right: 0;
+}
+
+main h1 h2{
+    text-align: center;
+}
+form{
+   text-align: center;
+}
+form input{
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 15px;
+}
+form label{
+    margin-top: 15px;
+}
+textarea{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button{
+    background-color: navy;
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+footer nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: gold;
+}
+footer p{
+    color: white;
+}
+main p{
+    text-align: center;
+}
+.brand h1 a{
+    text-decoration: none;
+    color: white;
+ }
